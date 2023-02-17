@@ -7,7 +7,29 @@
     align-items: center;
 }
 .card1{
-    width: 40%;
+    width: 20%;
     text-align: center;
-    border: 2px solid greenyellow;
+    border: 2px solid rgb(97, 161, 0);
+    align-items: center;
+    background-color: yellowgreen;
+    padding: 15px;
+    font-size: 30px;
+}
+
+#cantidad{
+    margin: 10px;
+}
+
+form > input{
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: 20px;
+    border-radius: 8%;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(219, 219, 46);
+    color: white;
+    font-size: 20px;
 }
