@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    align-items: center;
+}
+.card1{
+    width: 40%;
+    text-align: center;
+    border: 2px solid greenyellow;
+}
