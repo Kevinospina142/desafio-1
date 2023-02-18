@@ -14,8 +14,19 @@
     background-color: yellowgreen;
     padding: 15px;
     font-size: 30px;
-    position: fixed;
+    position: static;
 }
+.card2{
+    width: 20%;
+    text-align: center;
+    border: 2px solid rgb(97, 161, 0);
+    align-items: center;
+    background-color: yellowgreen;
+    padding: 15px;
+    font-size: 30px;
+    position: relative;
+}
+
 
 #cantidad{
     margin: 10px;
@@ -26,7 +37,7 @@ form > input{
     text-decoration-line: none;
     font-size: 20px;
     border-radius: 8%;
-    position: relative;
+    position:sticky;
 }
 .btn{
     width: 200px;
@@ -34,5 +45,4 @@ form > input{
     background-color: rgb(219, 219, 46);
     color: white;
     font-size: 20px;
-    position: relative;
 }
