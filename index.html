@@ -10,22 +10,27 @@
 <body>
     <div id="card1" class="card1">
         <form action="" id="form" class="form">
-            <img src="./assets/img/laptop.jpg" id="laptop"><br>
+            <img src="./assets/img/laptop.jpg" id="laptop">
             <label for="cantidad"></label>
-                <input type="number" id="cantidad" placeholder="Cantidad"><br><br>
-            <label for="color"></label>
-            <input type="text" id="color" placeholder="Color"><br><br>
+                <input type="number" id="cantidad" placeholder="Cantidad">
+            <select name="color" id="color">
+                <option value="0">Amarillo</option>
+                <option value="1">Blanco</option>
+                <option value="2">Negro</option>
+                <option value="3">Azul</option>
+            </select>
             <p>Precio: 400000</p>
             <label for="btn"></label>
-            <button type="submit" class="btn" id="btn"><p>Calcular total</p></button>
+            <button type="button" class="btn" id="btn"><p>Calcular total</p></button>
         </form>
     </div>
     <div id="card2" class="card2">
-        <form action="" id="form" class="form">
-            <label for="cantidad"></label>
-                <input type="number" id="cantidad" placeholder="Cantidad"><br><br>
-        </form>
+        <section>
+            <article><p>total: </p></article>
+            <article><p>Cantidad: </p></article>
+            <article><p>Color: </p><div id="colorElegido"></div></article>
+        </section>
     </div>
-    
 </body>
+<script type="" src="./assets/scripts/main.js"></script>
 </html>
