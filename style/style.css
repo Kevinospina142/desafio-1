@@ -14,7 +14,7 @@
     background-color: yellowgreen;
     padding: 15px;
     font-size: 30px;
-    position: static;
+    position:sticky;
 }
 .card2{
     width: 20%;
@@ -38,6 +38,7 @@ form > input{
     font-size: 20px;
     border-radius: 8%;
     position:sticky;
+    
 }
 .btn{
     width: 200px;
