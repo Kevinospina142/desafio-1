@@ -16,25 +16,31 @@ body{
     text-align: center;
     border: 2px solid rgb(97, 161, 0);
     align-items: center;
-    background-color: yellowgreen;
+    background-color: rgb(152, 227, 40);
     padding: 15px;
     font-size: 30px;
     position:sticky;
     display: inline-block;
+    margin-right: 10px;
 }
 .card2{
     width: 20%;
-    text-align: center;
-    border: 2px solid rgb(97, 161, 0);
+    text-align: left;
     align-items: center;
-    background-color: yellowgreen;
+    border: 2px solid rgb(97, 161, 0);
+    background-color: rgb(152, 227, 40);
     padding: 15px;
     font-size: 30px;
     position: fixed;
     display: inline-block;
+    color: white;
+    font-weight: 1000;
 }
 
-
+#precio{
+    color: white;
+    font-weight: 500;
+}
 #cantidad{
     margin: 10px;
 }
@@ -45,6 +51,7 @@ form > input{
     font-size: 20px;
     border-radius: 8%;
     position:sticky;
+    width: 200px;
     
 }
 form > select{
@@ -61,4 +68,38 @@ form > select{
     background-color: rgb(219, 219, 46);
     color: white;
     font-size: 20px;
+}
+
+#nombre{
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+}
+.white{
+    background-color: white !important;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 100%;
+}
+.blue{
+    background-color: blue !important;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 100%;
+}
+.yellow{
+    background-color: yellow !important;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 100%;
+}
+.black{
+    background-color: black !important;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 100%;
 }
